@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from engine.willoughby_engine import WilloughbyEngine
-
+from engine.battery.nubbin_battery.py import NubbinBattery
 
 class Rorschach(WilloughbyEngine):
     def needs_service(self):

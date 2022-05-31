@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from engine.sternman_engine import SternmanEngine
+from engine.batter.spindler_battery import SpindlerBattery
 
 
 class Palindrome(SternmanEngine):

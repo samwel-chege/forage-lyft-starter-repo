@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from engine.capulet_engine import CapuletEngine
-
+from engine.battery.nubbin_battery.py import NubbinBattery
 
 class Thovex(CapuletEngine):
     def needs_service(self):

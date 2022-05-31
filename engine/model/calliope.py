@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from engine.capulet_engine import CapuletEngine
-
+from engine.battery.spindler_battery import SpindlerBattery
 
 class Calliope(CapuletEngine):
     def needs_service(self):
